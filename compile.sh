@@ -1,0 +1,4 @@
+gcc matrix_multiplication_serial.c -o matrix_multiplication_serial
+mpicc -o matrix_multiplication_blocking matrix_multiplication_blocking.c
+mpicc -o matrix_multiplication_non_blocking matrix_multiplication_non_blocking.c
+mpicc -o matrix_multiplication_collective_communication matrix_multiplication_collective_communication.c
